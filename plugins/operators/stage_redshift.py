@@ -21,6 +21,7 @@ class StageToRedshiftOperator(BaseOperator):
         ACCESS_KEY_ID '{access_key}'
         SECRET_ACCESS_KEY '{secret_key}'
         FORMAT AS JSON '{json_path}'
+        TRUNCATECOLUMNS
         REGION 'us-east-1';
     """
 
