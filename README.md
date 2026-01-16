@@ -21,8 +21,6 @@ Visit http://localhost:8080 once all containers are up and running.
 
 On the Airflow web server UI, use `airflow` for both username and password.
 
-* After completing these steps, run the DAG to ensure all tasks are successfully executed.
-
 ## Getting Started with the Project
 1. The project template package comprises three key components:
    * The **DAG template** includes imports and task templates but lacks task dependencies.
